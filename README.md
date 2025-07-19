@@ -12,6 +12,7 @@ cd dnmtools-1.5.0
 mkdir build && cd build
 ../configure --prefix=~/
 
+export LD_LIBRARY_PATH="/home/jupyter/htslib:$LD_LIBRARY_PATH"
 ~/htslib$ make install prefix=$HOME/local
 
 dnmtools merge -t -radmeth \
