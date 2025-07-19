@@ -18,7 +18,7 @@ dnmtools merge -t -radmeth \
      1123364.meth 1019230.meth 1017202.meth \
      1062200.meth 1037492.meth 1118525.meth > proportion-table.txt
 
-
+dnmtools radmeth -factor case design-matrix.txt proportion-table.txt > output.bed
 
 base	case
 1123364.meth	1	0
